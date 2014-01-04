@@ -1,0 +1,30 @@
+;;;;;;;;;;;;;;;;;;;;;;;;
+;Debug parameters
+;;;;;;;;;;;;;;;;;;;;;;
+;Db user
+dbUser="root"
+;Db password
+dbPassword="password"
+;Ip for the db
+dbUrl="127.0.0.1"
+;Db port
+dbPort=10000
+;Db name
+dbName="sample_webapp_agustinm"
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Show sql executed
+;If it is set to 1 then the 
+;rest webservice logs all the
+;sql queries
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+doctrine.debug.sql=0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Application mode
+;Set in 0 for production mode
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+application.debug=1
+;;;;;;;;;;;;;;;;;;;;;;
+;Monolog file location
+;;;;;;;;;;;;;;;;;;;;;;;;
+monolog.file="/tmp/user/thesis/restImperium/logs/monolog.log"

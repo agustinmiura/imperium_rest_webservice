@@ -1,0 +1,5 @@
+/nbproject/
+/nbproyect/
+/vendor/
+composer.lock
+*.log
